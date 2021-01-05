@@ -15,24 +15,24 @@ Download the [file/folder](https://github.com/yogeshknp/Teams_Automatic_gui_cont
 
 An Example:
 
-my_courses={'EE442':'Microwave Engineering Lab',
-'EE499':'BTP',
-'EE626':'Pattern Recognition and Machine Learning',
-'HS-401':'Management of Organizational Behaviour',
-'EE674':'Sychrophasor Technology',
-'EE621':'Computer Vision',
+my_courses={'EE442':'Microwave Engineering Lab',<\br>
+'EE499':'BTP',<\br>
+'EE626':'Pattern Recognition and Machine Learning',<\br>
+'HS-401':'Management of Organizational Behaviour',<\br>
+'EE674':'Sychrophasor Technology',<\br>
+'EE621':'Computer Vision',<\br>
 'EE 661':'Power Electronics for Renewable Energy Systems'}
 
-course_timetable = {'mon':['EE422,11:00,60','EE626,12:01,60','EE621,14:02,60','EE674,16:03,60'],
-                    'tue':['EE626,12:00,60','EE621,14:01,60','EE 661,15:02,60','EE674,16:03,60'],
-                    'wed':['HS-401,12:00,60','EE 661,13:01,60','EE621,14:02,60'],
-                    'thu':['HS-401,12:00,60','EE 661,13:01,60','HS401,14:02,60'],
-                    'fri':['EE626,11:00,60','HS-401,12:01,60','EE674,15:02,60']}
+course_timetable = {'mon':['EE422,11:00,60','EE626,12:01,60','EE621,14:02,60','EE674,16:03,60'],<\br>
+                    'tue':['EE626,12:00,60','EE621,14:01,60','EE 661,15:02,60','EE674,16:03,60'],<\br>
+                    'wed':['HS-401,12:00,60','EE 661,13:01,60','EE621,14:02,60'],<\br>
+                    'thu':['HS-401,12:00,60','EE 661,13:01,60','HS401,14:02,60'],<\br>
+                    'fri':['EE626,11:00,60','HS-401,12:01,60','EE674,15:02,60']}<\br>
                     
 For example: 'HS-401' is contained in my team group name as Grp_**HS-401**:Management of Organizational Behaviour.
-the key in my_courses and course_timetable must match.
+The key in my_courses and course_timetable must match.
 
-'EE422,11:00,60' the format for this is <course_code>,(time in 24 hr format)<hrs>:<mins>,(duration in minutes)
+'EE422,11:00,60' the format for this is <course_code>,hrs:min (time in 24 hr clock),(duration in minutes)
  make sure in a single the lecture time is in order ie.,lecture at 11:00 comes before 13:00
 
 ## How to use
