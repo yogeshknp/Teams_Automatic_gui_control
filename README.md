@@ -1,7 +1,7 @@
 # Teams_Automatic_gui_control
 
 ## Installation and setup
-You should have Python3 and Jupyter Notebook installed in your system 
+You should have Python3 and Jupyter Notebook installed in your system, [how to?](https://www.youtube.com/watch?v=pmreXCM2Z9A)
 
 Install these libraries from an administrator terminal (windows):
 
